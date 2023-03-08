@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&family=Satisfy&display=swap');
+body {
+    position: relative;
+    margin: 0;
+    background-color: rgba(89, 0, 255, 0.363);
+    font-family: 'Rubik Gemstones', cursive;
+    background: url('d2.jpg') center;
+    background-size: cover;
+}
+.welcome-wish {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    word-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0.726);
+    z-index: 100;
+}
+#msg {
+    padding: 30px;
+    word-spacing: 10px;
+}
+.background-blur {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid transparent;
+}
+.main {
+    background: url('d1.jpg') center;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 800px;
+    min-width: 250px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.315);
+    scale: 0.85;
+}
+audio {
+    width: 100%;
+    visibility: hidden;
+}
+.present {
+    margin: 0 auto;
+    width: 80%;
+    height: 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    margin-top: 320px;
+    overflow: hidden;
+}
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+    color: black;
+    background-color: rgb(82, 0, 114);
+    color: white;
+    transition: 0.1s all linear;
+}
+#stop {
+    margin-top: 2px;
+}
+button:hover {
+    color: rgb(82, 0, 114);
+    background-color: rgb(255, 197, 207);
+}
+span {
+    display: inline;
+    font-size: 3em;
+}
+#red {
+    color: rgb(255, 0, 0);
+}
+#yellow {
+    color: yellow;
+}
+#blue {
+    color: rgb(0, 81, 255);
+}
+#green {
+    color: rgb(0, 255, 0);
+}
+#cyan {
+    color: cyan;
+}
+#purple {
+    color: rgb(255, 0, 255);
+}
+#pink {
+    color: rgb(255, 108, 133);
+}

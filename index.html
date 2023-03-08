@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="30">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
+	<title>Happy Birthday</title>
+</head>
+
+<body onload="typer()" >
+	<div class="welcome-wish" onclick="hide()">
+		<p id="msg"></p>
+	</div>
+	<div class="background-blur" style="z-index: 2;">
+		<div class="main">
+			<audio controls loop src="1.mp3" id="audio"></audio>
+			<div class="present" id="hidden">
+				<button id="play" onclick="btnClick()">Click here</button>
+				<button id="stop" onclick="stopSong()">stop music & hide</button>
+				<script src="script.js"></script>
+				<div class="message">
+					<span id="green">H</span>
+					<span id="yellow">A</span>
+					<span id="red">P</span>
+					<span id="blue">P</span>
+					<span id="green">Y</span>
+					<br>
+					<span id="yellow">B</span>
+					<span id="purple">I</span>
+					<span id="green">R</span>
+					<span id="red">T</span>
+					<span id="blue">H</span>
+					<span id="cyan">D</span>
+					<span id="purple">A</span>
+					<span id="yellow">Y</span>
+					<br>
+					<span id="cyan">M</span><span id="pink">y </span>
+					<span id="purple">p</span><span id="yellow">r</span><span id="green">e</span><span id="pink">t</span><span id="cyan">t</span><span id="red">y </span>
+					<span id="blue">l</span><span id="purple">i</span><span id="yellow">t</span><span id="cyan">t</span><span id="green">l</span><span id="yellow">e </span>
+					<span id="red">A</span><span id="blue">d</span><span id="purple">e</span><span id="green">p</span><span id="yellow">a</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
